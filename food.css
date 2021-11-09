@@ -1,0 +1,40 @@
+*{box-sizing: border-box}
+body{
+	color:#38270D;
+	background-color:#C4E396;
+	background-image:url(foodImages/foodBG.png);
+	font-family: Georgia, serif;}
+
+header{
+	background-color:#1F5034;
+	color:#85DF5E;
+	line-height:80px;
+	text-align:center;
+	display:block;}
+
+h1{
+	padding-top:45px;
+	font-size:3em;}
+
+nav{
+	float:left;
+	width:150px;
+	background-color:#C9E265;
+	text-align:center;
+	font-weight:bold;
+	font-size;1.5em;
+	padding-top:10px;
+	text-decoration:none;
+	display:block;}
+nav a:link{color:#38270D;}
+nav a:visited{color:#38270D;}
+nav a:hover{color:#1F5034;}
+nav ul{list-style-type:none;
+	padding-left:0px;}
+
+main{padding:0em 2em 1em;
+	margin-left:200px;
+	color:#1F5034;
+	background-color:#85DF5E;}
+dd{
+	padding-bottom:1em;}
